@@ -1,5 +1,4 @@
-# Object file
-*.o
+.idea/
+node_modules/
 
-# Ada Library Information
-*.ali
+package-lock.json
