@@ -4,6 +4,7 @@
 
 预览：https://xiedajian.github.io/D3-force-relation-demo/dist/index.html
 
+用到jquery + d3.js 
 ## 运行之前请先安装依赖
 
 npm install
