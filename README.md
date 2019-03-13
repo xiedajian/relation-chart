@@ -65,7 +65,7 @@ new RelationChart(domElement, data[, config])
             "source": 0,            // 起始节点在 nodes[] 中的索引
             "target": 1,            // 目标节点在 nodes[] 中的索引
             "relation": "朋友",      // 关系名称
-            "color": "734646"       // 自定义细条颜色
+            "color": "734646"       // 自定义细条颜色,#734646
         },
         {
             "source": 1,
