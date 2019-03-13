@@ -1,25 +1,25 @@
 
 
-# d3.js 力导向图绘制人物关系图谱
+# relation
 
-预览：https://xiedajian.github.io/D3-force-relation-demo/dist/index.html
+预览：https://xiedajian.github.io/relation-chart/example/demo1/index.html
 
-![预览](https://github.com/xiedajian/D3-force-relation-demo/blob/master/src/img/relation.gif)
-
-用到jquery + d3.js 
-## 运行之前请先安装依赖
-
-npm install
-
-## 开发预览运行
-
-npm run server
+![预览](https://github.com/xiedajian/relation-chart/blob/master/demo.jpg)
+![高亮选中](https://github.com/xiedajian/relation-chart/blob/master/demo.jpg)
 
 
-## 打包
+# install
 
-npm run build
+```
+npm install relation-chart
+```
 
+ES6 
+```
+import RelationChart from 'relation-chart'
+
+
+```
 
 
 
