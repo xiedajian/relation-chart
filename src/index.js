@@ -441,7 +441,7 @@ class RelationChart {
     }
 }
 
-console.log(RelationChart)
+// console.log(RelationChart)
 
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory :
