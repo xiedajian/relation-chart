@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A relation chart library based on D3.js force",
   "main": "./dist/index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "build:dev": "webpack --config webpack.config.js  --mode=development",
     "build:prod": "webpack --config webpack.config.js  --mode=production"
@@ -16,13 +13,14 @@
   },
   "files": [
     "dist",
-    "examples"
+    "examples/demo1"
   ],
   "keywords": [
     "relation",
     "chart",
     "d3",
     "force",
+    "javascript",
     "人物关系图"
   ],
   "author": "xiedajian <172265972@qq.com>",

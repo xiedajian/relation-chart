@@ -70,7 +70,7 @@ const defaultConfig = {
 
 class RelationChart {
 
-    constructor(selector, data, configs) {
+    constructor(selector, data, configs = {}) {
 
         // console.log(selector)
         // console.log(d3.select(selector))
@@ -93,7 +93,7 @@ class RelationChart {
 
         // 合并配置
         this.config = extend({}, defaultConfig, data, defaultWH, configs);
-        console.log(this.config)
+        // console.log(this.config)
 
         // 需要高亮的node和link
         this.dependsNode = [];
@@ -109,7 +109,7 @@ class RelationChart {
 
         // 1. 创建一个力学模拟器
         this.simulation = d3.forceSimulation(this.config.nodes)
-            // simulation.force(name,[force])函数，添加某种力
+        // simulation.force(name,[force])函数，添加某种力
             .force("link", d3.forceLink(this.config.links))
             // 万有引力
             .force("charge", d3.forceManyBody().strength(this.config.chargeStrength))
@@ -217,7 +217,7 @@ class RelationChart {
                 d3.select(this).selectAll('path.links').attr('stroke-width', 1);
             })
             .on('click', function (d) {
-                console.log('线点击')
+                console.log('线click')
             })
             .attr('fill', function (d) {
                 var str = '#bad4ed';
@@ -298,7 +298,7 @@ class RelationChart {
                 }
             })
             .on('click', function (d) {
-                console.log('头像节点点击')
+                console.log('头像节点click')
                 // 展示方式2 ：浮窗展示
                 event = d3.event || window.event;
                 var pageX = event.pageX ? event.pageX : (event.clientX + (document.body.scrollLeft || document.documentElement.scrollLeft));
@@ -446,5 +446,5 @@ class RelationChart {
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory :
         (global = global || self, global.RelationChart = factory);
-}(this,RelationChart))
+}(this, RelationChart))
 
