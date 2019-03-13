@@ -2,19 +2,22 @@
   "name": "relation-chart",
   "version": "1.0.0",
   "description": "A relation chart library based on D3.js force",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
     "build:dev": "webpack --config webpack.config.js  --mode=development",
-    "build:prod": "webpack --config webpack.config.js  --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:prod": "webpack --config webpack.config.js  --mode=production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiedajian/relation-chart.git"
   },
+  "files": [
+    "dist",
+    "examples"
+  ],
   "keywords": [
     "relation",
     "chart",
@@ -23,7 +26,7 @@
     "人物关系图"
   ],
   "author": "xiedajian <172265972@qq.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/xiedajian/relation-chart/issues"
   },
