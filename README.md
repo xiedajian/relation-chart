@@ -31,7 +31,7 @@ import RelationChart from 'relation-chart'
 
 Script tag:
 ```
-<script src="/node_modules/relation-charts/dist/index.js"></script>
+<script src="/node_modules/relation-chart/dist/index.js"></script>
 ```
 
 # API
