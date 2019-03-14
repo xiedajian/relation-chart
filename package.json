@@ -1,6 +1,6 @@
 {
   "name": "relation-chart",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A relation chart library based on D3.js force",
   "main": "./dist/index.js",
   "scripts": {

@@ -1,16 +1,20 @@
 
 
-# relation-chart
+# [relation-chart](https://xiedajian.github.io/relation-chart)
 
 人物关系图生成器
 
-***
+---
 
 [效果预览链接](https://xiedajian.github.io/relation-chart/examples/demo1/index.html)
 
-![预览](https://xiedajian.github.io/relation-chart/demo.jpg)
-![高亮选中](https://xiedajian.github.io/relation-chart/demo2.jpg)
+可进行拖拽，缩放
 
+[![预览](https://xiedajian.github.io/relation-chart/demo.jpg)](https://xiedajian.github.io/relation-chart/examples/demo1/index.html)
+
+高亮选中的节点
+
+[![高亮选中](https://xiedajian.github.io/relation-chart/demo2.jpg)](https://xiedajian.github.io/relation-chart/examples/demo1/index.html)
 
 # install
 
