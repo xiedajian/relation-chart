@@ -1,6 +1,6 @@
 
 
-# [relation-chart](https://xiedajian.github.io/relation-chart)
+# [relation-chart](https://github.com/xiedajian/relation-chart)
 
 人物关系图生成器
 
