@@ -68,7 +68,7 @@ const defaultConfig = {
     strokeWidth: 3,             // 头像外围包裹的宽度
 }
 
-class RelationChart {
+export default class RelationChart {
 
     constructor(selector, data, configs = {}) {
 
