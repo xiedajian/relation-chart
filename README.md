@@ -6,10 +6,10 @@
 
 ***
 
-[效果预览](https://xiedajian.github.io/relation-chart/example/demo1/index.html)
+[效果预览链接](https://xiedajian.github.io/relation-chart/examples/demo1/index.html)
 
 ![预览](https://xiedajian.github.io/relation-chart/demo.jpg)
-![高亮选中](https://xiedajian.github.io/relation-chart//demo2.jpg)
+![高亮选中](https://xiedajian.github.io/relation-chart/demo2.jpg)
 
 
 # install
@@ -183,4 +183,4 @@ export default {
 </script>
 ```
 
-欢迎star
+[欢迎 star ❤❤❤](https://github.com/xiedajian/relation-chart)
