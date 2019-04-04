@@ -31,7 +31,8 @@ import RelationChart from 'relation-chart'
 
 Script tag:
 ```
-<script src="/node_modules/relation-chart/dist/dist.js"></script>
+// 引用 dist/dist.js 文件，注意自己项目的路径
+<script src="./node_modules/relation-chart/dist/dist.js"></script>
 ```
 
 # API
